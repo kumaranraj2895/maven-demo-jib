@@ -79,7 +79,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>products-app-k8s</finalName>
+		<finalName>prod-app</finalName>
 	</build>
 
 </project>
