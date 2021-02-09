@@ -14,6 +14,7 @@ spec:
         labels:
           app: products
       spec:
+	serviceAccountName: myaccount
         containers:
         - name: products-container
           image: kumaranraj/sb-prod-app:v1
