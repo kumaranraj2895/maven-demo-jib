@@ -8,4 +8,10 @@ node {
                         kubeconfigId: 'Kubernetes_Cluster_Config'
                         )
                 }
+ 	stage('Deploy service') {
+                    kubernetesDeploy(
+                        configs: 'service.yaml',
+                        kubeconfigId: 'Kubernetes_Cluster_Config'
+                        )
+                }
 }
